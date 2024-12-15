@@ -1,0 +1,3 @@
+from PyQt6.QtWidgets import *
+from math import *
+from gui import Ui_MainWindow
