@@ -18,6 +18,9 @@ class Ui_MainWindow(object):
         self.voteButton = QtWidgets.QPushButton(parent=self.centralwidget)
         self.voteButton.setGeometry(QtCore.QRect(290, 250, 93, 28))
         self.voteButton.setObjectName("voteButton")
+        self.submitButton = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.submitButton.setGeometry(QtCore.QRect(180, 250, 93, 28))
+        self.voteButton.setObjectName("submitButton")
         self.votinglabel = QtWidgets.QTextEdit(parent=self.centralwidget)
         self.votinglabel.setGeometry(QtCore.QRect(160, 80, 101, 31))
         self.votinglabel.setObjectName("votinglabel")
@@ -49,6 +52,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.voteButton.setText(_translate("MainWindow", "VOTE"))
+        self.submitButton.setText(_translate("MainWindow", "SUBMIT"))
         self.votinglabel.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
